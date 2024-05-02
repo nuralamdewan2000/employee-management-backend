@@ -20,7 +20,7 @@ router.use(authentication)
 
 router.get("/users/logout", logout)
 router.get("/dashboard", getEmployee)
-router.post("/dashboard/addEmployye", addEmployee)
+router.post("/dashboard/addEmployee", addEmployee)
 router.patch("/dashboard/update/:id", updataEmployee)
 router.delete("/dashboard/delete/:id", deleteEmployee)
 router.get("/dashboard/search", searchByName)

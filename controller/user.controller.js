@@ -1,5 +1,5 @@
 const express = require("express");
-const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken")
 const bcrypt = require("bcrypt");
 const { userModel } = require("../model/user.model"); 
